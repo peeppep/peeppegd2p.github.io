@@ -1,0 +1,91 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F9F9F9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для шапки */
+header {
+    background-color: #D4E6F1;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #5D6D7E;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5D6D7E;
+    font-size: 1.2em;
+}
+
+/* Стили для раздела с фильмами */
+.movies {
+    padding: 20px;
+}
+
+.movies h2 {
+    color: #85C1E9;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie {
+    background-color: #FDEDEC;
+    border: 1px solid #D5D8DC;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.movie h3 {
+    color: #EC7063;
+}
+
+/* Стили для раздела с категориями */
+.categories {
+    background-color: #FADBD8;
+    padding: 20px;
+    text-align: center;
+}
+
+.categories h2 {
+    color: #AF7AC5;
+}
+
+.categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories ul li {
+    display: inline-block;
+    background-color: #D7BDE2;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #5B2C6F;
+}
